@@ -30,7 +30,7 @@ class Routes {
       celebrate({
         [Segments.BODY]: Joi.object().keys({
           username: Joi.string().required(),
-          notes: Joi.string(),
+          notes: Joi.string().allow(null, ""),
         }),
       }),
       DevController.save

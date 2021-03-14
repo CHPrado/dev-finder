@@ -36,6 +36,6 @@ export default {
       .onConflict("username")
       .merge();
 
-    return response.json({ message: "Notes saved!", id, username });
+    return response.json({ message: "Notes saved!", id, username, notes });
   },
 };

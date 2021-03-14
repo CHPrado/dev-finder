@@ -85,69 +85,8 @@ export default makeStyles((theme: Theme) => ({
       flexDirection: "column",
     },
   },
-  valuesBox: {
-    display: "flex",
-    marginRight: theme.spacing(2),
-  },
-  value: {
-    fontWeight: theme.typography.fontWeightBold,
-    color: theme.palette.text.secondary,
-    margin: theme.spacing(0, 1),
-    textAlign: "right",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "flex-end",
-  },
-  text: {
-    color: theme.palette.text.secondary,
-    margin: theme.spacing(0, 1),
-    whiteSpace: "nowrap",
-  },
   icon: {
     marginRight: theme.spacing(2),
-  },
-  languagesBox: {
-    display: "flex",
-    justifyContent: "space-between",
-    [theme.breakpoints.down("xs")]: {
-      justifyContent: "center",
-    },
-  },
-  language: {
-    color: theme.palette.text.secondary,
-    margin: theme.spacing(0, 1),
-    whiteSpace: "nowrap",
-    [theme.breakpoints.down("xs")]: {
-      textAlign: "right",
-    },
-  },
-  percent: {
-    fontWeight: theme.typography.fontWeightBold,
-    color: theme.palette.text.secondary,
-    margin: theme.spacing(0, 1),
-    textAlign: "right",
-    [theme.breakpoints.down("xs")]: {
-      textAlign: "left",
-    },
-  },
-  notes: {
-    margin: theme.spacing(5, 0),
-  },
-  buttonsBox: {
-    display: "flex",
-    [theme.breakpoints.down("xs")]: {
-      ...flexCenter,
-      flexDirection: "column",
-    },
-  },
-  button: {
-    marginRight: theme.spacing(2),
-    width: "150px",
-    [theme.breakpoints.down("xs")]: {
-      flexDirection: "column",
-      marginTop: theme.spacing(2),
-      width: "100%",
-    },
   },
   link: {
     textDecoration: "none",
