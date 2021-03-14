@@ -46,8 +46,8 @@ const Home = () => {
           type: "error",
           onClose: () => setSnackbar({ open: false }),
         });
-      })
-      .finally(() => setIsLoading(false));
+        setIsLoading(false);
+      });
   };
 
   return (
