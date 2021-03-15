@@ -105,7 +105,7 @@ const Notes: FC<Props> = ({ dev, setIsLoading, setSnackbar, setDev }) => {
             color="primary"
             onClick={handleSave}
           >
-            Salvar
+            SAVE
           </Button>
           <Button
             className={classes.button}
@@ -113,7 +113,7 @@ const Notes: FC<Props> = ({ dev, setIsLoading, setSnackbar, setDev }) => {
             color="primary"
             onClick={handleCancel}
           >
-            Cancelar
+            CANCEL
           </Button>
         </Box>
       )}
