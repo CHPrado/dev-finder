@@ -80,47 +80,6 @@ describe("simulating events", () => {
       );
     });
   });
-
-  // describe("simulates button click with text input", () => {
-  //   const wrapper = mount(
-  //     <BrowserRouter>
-  //       <Home />
-  //     </BrowserRouter>
-  //   );
-
-  //   const getSpy = jest.spyOn(axios, "get");
-  //   const button = wrapper.find(IconButton).at(0);
-  //   let input = wrapper.find(TextField).at(0);
-  //   let snackbar = wrapper.find(Snackbar).at(0);
-
-  //   input
-  //     .find("input")
-  //     .at(0)
-  //     .simulate("change", { target: { value: "CHPrado" } });
-  //   wrapper.update();
-  //   input = wrapper.find(TextField).at(0);
-
-  //   expect(input.props().value).toEqual("CHPrado");
-
-  //   it("Checks Snackbar prop before click", () => {
-  //     expect(snackbar.props().open).toEqual(undefined);
-  //   });
-
-  //   it("Checks Snackbar prop after click and api calls", async () => {
-  //     await act(async () => {
-  //       button.simulate("click");
-  //     });
-
-  //     wrapper.update();
-  //     snackbar = wrapper.find(Snackbar).at(0);
-
-  //     expect(getSpy).toBeCalled();
-  //     expect(snackbar.props().open).toEqual(true);
-  //     expect(snackbar.props().message).toEqual(
-  //       "We couldn't find a dev with this username."
-  //     );
-  //   });
-  // });
 });
 
 describe("snapshots", () => {
