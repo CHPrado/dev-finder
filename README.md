@@ -1,6 +1,6 @@
 ## lookingforDev
 
-An app where you can look for a developer using a gihub username and it will display it's user gihub information with a text field for you to add some notes.
+An app where you can look for a developer using a github username and it will display it's user github information with a text field for you to add some notes.
 
 ## CONFIGURATION
 
