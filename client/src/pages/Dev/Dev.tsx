@@ -1,6 +1,5 @@
 import React, { FC, useState } from "react";
-import { StaticContext } from "react-router";
-import { RouteComponentProps, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import {
   Box,
@@ -14,18 +13,14 @@ import { CachedOutlined } from "@material-ui/icons";
 import { LocationIcon } from "@primer/octicons-react";
 
 import { Header, Snackbar } from "../../components";
-import { DevProps, SnackbarProps } from "../../interfaces";
+import { SnackbarProps, DevRouteProps } from "../../interfaces";
 import { githubApi } from "../../services";
 import { Details } from "./Details";
 import { Languages } from "./Languages";
 import { Notes } from "./Notes";
 import useStyles from "./styles";
 
-interface StateProps {
-  dev: DevProps;
-}
-
-const Dev: FC<RouteComponentProps<{}, StaticContext, StateProps>> = (props) => {
+const Dev: FC<DevRouteProps> = (props) => {
   const classes = useStyles();
   const [dev, setDev] = useState(props.location.state.dev);
   const [isLoading, setIsLoading] = useState(false);
@@ -34,7 +29,7 @@ const Dev: FC<RouteComponentProps<{}, StaticContext, StateProps>> = (props) => {
   const handleRefresh = () => {
     setIsLoading(true);
     githubApi
-      .getDev(dev.login)
+      .getDev(dev.username)
       .then((resp) => {
         setDev(resp);
       })

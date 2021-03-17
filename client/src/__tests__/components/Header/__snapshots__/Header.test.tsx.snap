@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots Header snapshots 1`] = `
+<Styled(MuiBox)
+  className="makeStyles-root-1"
+>
+  <Link
+    className="makeStyles-link-4"
+    to="/"
+  >
+    <WithStyles(ForwardRef(Typography))
+      className="makeStyles-title-3"
+      variant="h4"
+    >
+      <img
+        alt="avatar"
+        className="makeStyles-logo-2"
+        src="githubLogo.png"
+      />
+      lookingforDev
+      <GitBranchIcon
+        className="octicon octicon-git-branch"
+        size={40}
+        verticalAlign="text-bottom"
+      />
+    </WithStyles(ForwardRef(Typography))>
+  </Link>
+</Styled(MuiBox)>
+`;

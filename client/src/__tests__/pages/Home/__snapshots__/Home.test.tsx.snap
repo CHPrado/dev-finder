@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots Home snapshots 1`] = `
+<Styled(MuiBox)
+  className="makeStyles-root-1"
+>
+  <Header />
+  <Styled(MuiBox)
+    className="makeStyles-content-2"
+  >
+    <img
+      alt="avatar"
+      className="makeStyles-logo-3"
+      src="githubLogo2.png"
+    />
+    <WithStyles(ForwardRef(TextField))
+      InputProps={
+        Object {
+          "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+            position="start"
+          >
+            <WithStyles(ForwardRef(IconButton))
+              onClick={[Function]}
+            >
+              <Memo />
+            </WithStyles(ForwardRef(IconButton))>
+          </WithStyles(ForwardRef(InputAdornment))>,
+          "startAdornment": <WithStyles(ForwardRef(InputAdornment))
+            position="start"
+          >
+            github.com/
+          </WithStyles(ForwardRef(InputAdornment))>,
+        }
+      }
+      label="Username"
+      onChange={[Function]}
+      onKeyPress={[Function]}
+      placeholder="coolest-dev"
+      value=""
+      variant="outlined"
+    />
+  </Styled(MuiBox)>
+  <Snackbar />
+</Styled(MuiBox)>
+`;

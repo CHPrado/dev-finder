@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots Dev snapshots 1`] = `
+<Styled(MuiBox)
+  className="makeStyles-root-1"
+>
+  <Header />
+  <Styled(MuiBox)
+    className="makeStyles-container-3"
+  >
+    <WithStyles(ForwardRef(Card))
+      className="makeStyles-card-4"
+      variant="outlined"
+    >
+      <Styled(MuiBox)
+        className="makeStyles-titleBox-5"
+      >
+        <Link
+          className="makeStyles-link-13"
+          target="_blank"
+          to={[Function]}
+        >
+          <WithStyles(ForwardRef(Typography))
+            className="makeStyles-name-6"
+          >
+            CHPrado's profile
+          </WithStyles(ForwardRef(Typography))>
+        </Link>
+        <Styled(MuiBox)
+          display="flex"
+        >
+          <WithStyles(ForwardRef(Tooltip))
+            title="Refresh"
+          >
+            <WithStyles(ForwardRef(IconButton))
+              onClick={[Function]}
+            >
+              <Memo([object Object]) />
+            </WithStyles(ForwardRef(IconButton))>
+          </WithStyles(ForwardRef(Tooltip))>
+        </Styled(MuiBox)>
+      </Styled(MuiBox)>
+      <Styled(MuiBox)
+        className="makeStyles-avatarBox-7"
+      >
+        <img
+          alt="avatar"
+          className="makeStyles-avatar-8"
+          src="avatar_url"
+        />
+        <Styled(MuiBox)
+          className="makeStyles-infoBox-9"
+        >
+          <WithStyles(ForwardRef(Typography))
+            className="makeStyles-info-10"
+          >
+            Christian Prado
+          </WithStyles(ForwardRef(Typography))>
+          <WithStyles(ForwardRef(Typography))
+            className="makeStyles-info-10"
+          >
+            <LocationIcon
+              className="makeStyles-icon-12"
+              size={18}
+              verticalAlign="text-bottom"
+            />
+            Lins - SP
+          </WithStyles(ForwardRef(Typography))>
+          <WithStyles(ForwardRef(Typography))
+            align="justify"
+            color="textSecondary"
+          >
+            My bio
+          </WithStyles(ForwardRef(Typography))>
+        </Styled(MuiBox)>
+      </Styled(MuiBox)>
+      <Styled(MuiBox)
+        className="makeStyles-detailsBox-11"
+      >
+        <Details
+          dev={
+            Object {
+              "avatar_url": "avatar_url",
+              "bio": "My bio",
+              "followers": 1,
+              "following": 2,
+              "forks": 6,
+              "languages": Array [
+                Object {
+                  "count": 1,
+                  "name": "JavaScript",
+                  "percent": "49.9",
+                },
+                Object {
+                  "count": 1,
+                  "name": "Ruby",
+                  "percent": "51.1",
+                },
+              ],
+              "location": "Lins - SP",
+              "name": "Christian Prado",
+              "notes": "Notes about me",
+              "public_repos": 3,
+              "stars": 4,
+              "username": "CHPrado",
+              "watchers": 5,
+            }
+          }
+        />
+        <Languages
+          languages={
+            Array [
+              Object {
+                "count": 1,
+                "name": "JavaScript",
+                "percent": "49.9",
+              },
+              Object {
+                "count": 1,
+                "name": "Ruby",
+                "percent": "51.1",
+              },
+            ]
+          }
+        />
+      </Styled(MuiBox)>
+      <Notes
+        dev={
+          Object {
+            "avatar_url": "avatar_url",
+            "bio": "My bio",
+            "followers": 1,
+            "following": 2,
+            "forks": 6,
+            "languages": Array [
+              Object {
+                "count": 1,
+                "name": "JavaScript",
+                "percent": "49.9",
+              },
+              Object {
+                "count": 1,
+                "name": "Ruby",
+                "percent": "51.1",
+              },
+            ],
+            "location": "Lins - SP",
+            "name": "Christian Prado",
+            "notes": "Notes about me",
+            "public_repos": 3,
+            "stars": 4,
+            "username": "CHPrado",
+            "watchers": 5,
+          }
+        }
+        setDev={[Function]}
+        setIsLoading={[Function]}
+        setSnackbar={[Function]}
+      />
+    </WithStyles(ForwardRef(Card))>
+  </Styled(MuiBox)>
+  <Snackbar />
+</Styled(MuiBox)>
+`;

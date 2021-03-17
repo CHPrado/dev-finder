@@ -1,6 +1,5 @@
 interface DevProps {
   username: string;
-  login: string;
   name: string;
   bio: string;
   avatar_url: string;

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots Notes snapshots 1`] = `
+<Styled(MuiBox)
+  width="100%"
+>
+  <Styled(MuiBox)
+    alignItems="center"
+    display="flex"
+    justifyContent="space-between"
+  >
+    <WithStyles(ForwardRef(Typography))
+      color="textSecondary"
+      variant="h6"
+    >
+      Notes
+    </WithStyles(ForwardRef(Typography))>
+    <WithStyles(ForwardRef(Tooltip))
+      title="Edit note"
+    >
+      <WithStyles(ForwardRef(IconButton))
+        onClick={[Function]}
+      >
+        <Memo([object Object]) />
+      </WithStyles(ForwardRef(IconButton))>
+    </WithStyles(ForwardRef(Tooltip))>
+  </Styled(MuiBox)>
+  <WithStyles(ForwardRef(TextField))
+    className="makeStyles-notes-1"
+    disabled={true}
+    fullWidth={true}
+    multiline={true}
+    onChange={[Function]}
+    placeholder="Add notes about Christian Prado"
+    rows={5}
+    value="Notes about me"
+    variant="outlined"
+  />
+</Styled(MuiBox)>
+`;

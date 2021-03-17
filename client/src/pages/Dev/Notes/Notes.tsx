@@ -87,7 +87,7 @@ const Notes: FC<Props> = ({ dev, setIsLoading, setSnackbar, setDev }) => {
         )}
       </Box>
       <TextField
-        placeholder={`Add notes about ${dev.name || dev.login}`}
+        placeholder={`Add notes about ${dev.name || dev.username}`}
         value={notes}
         onChange={handleChange}
         className={classes.notes}

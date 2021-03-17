@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots Snackbar snapshots 1`] = `
+<WithStyles(ForwardRef(Snackbar))
+  autoHideDuration={6000}
+  onClose={[Function]}
+  open={true}
+>
+  <WithStyles(ForwardRef(Alert))
+    elevation={6}
+    onClose={[Function]}
+    severity="success"
+    variant="filled"
+  >
+    Test message
+  </WithStyles(ForwardRef(Alert))>
+</WithStyles(ForwardRef(Snackbar))>
+`;

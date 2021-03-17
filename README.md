@@ -1,46 +1,39 @@
-# Getting Started with Create React App
+## lookingforDev
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An app where you can look for a developer using a gihub username and it will display it's user gihub information with a text field for you to add some notes.
 
-## Available Scripts
+## CONFIGURATION
 
-In the project directory, you can run:
+### Client and Node API
 
-### `yarn start`
+In the client app directory and in the node API directory install all dependencies by running:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### `npm install` or `yarn install`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+To start the app and the server run in both directories:
 
-### `yarn test`
+### `npm start` or `yarn start`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Ruby API
 
-### `yarn build`
+In the ruby API directory install all dependencies by running:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `bundle install`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To start the server run:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `rails s`
 
-### `yarn eject`
+## TESTING
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Client and Node API
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To run tests for the client app or the node server run in their respective directories:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### `npm test` or `yarn test`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Ruby API
 
-## Learn More
+To run tests for the ruby server run:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `rspec`

@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots Languages snapshots 1`] = `
+<Styled(MuiBox)
+  mt={
+    Object {
+      "sm": 0,
+      "xs": 4,
+    }
+  }
+>
+  <Styled(MuiBox)
+    className="makeStyles-languageBox-1"
+    key="JavaScript"
+  >
+    <Styled(MuiBox)
+      width="100%"
+    >
+      <WithStyles(ForwardRef(Typography))
+        className="makeStyles-language-2"
+      >
+        JavaScript
+      </WithStyles(ForwardRef(Typography))>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      width="100%"
+    >
+      <WithStyles(ForwardRef(Typography))
+        className="makeStyles-percent-3"
+      >
+        49.9
+        %
+      </WithStyles(ForwardRef(Typography))>
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+  <Styled(MuiBox)
+    className="makeStyles-languageBox-1"
+    key="Ruby"
+  >
+    <Styled(MuiBox)
+      width="100%"
+    >
+      <WithStyles(ForwardRef(Typography))
+        className="makeStyles-language-2"
+      >
+        Ruby
+      </WithStyles(ForwardRef(Typography))>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)
+      width="100%"
+    >
+      <WithStyles(ForwardRef(Typography))
+        className="makeStyles-percent-3"
+      >
+        51.1
+        %
+      </WithStyles(ForwardRef(Typography))>
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+</Styled(MuiBox)>
+`;
