@@ -4,6 +4,9 @@ export default makeStyles((theme: Theme) => ({
   root: {
     display: "flex",
     marginRight: theme.spacing(2),
+    [theme.breakpoints.down("xs")]: {
+      margin: 0,
+    },
   },
   value: {
     fontWeight: theme.typography.fontWeightBold,
