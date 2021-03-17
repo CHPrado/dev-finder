@@ -71,19 +71,10 @@ const Details: FC<Props> = ({ dev }) => {
             public repositories
           </Typography>
         </Link>
-        <Link
-          className={classes.link}
-          to={(location) => ({
-            ...location,
-            pathname: `http://www.github.com/${dev.username}?tab=stars`,
-          })}
-          target="_blank"
-        >
-          <Typography className={classes.text}>
-            <StarIcon size={16} className={classes.icon} />
-            stars
-          </Typography>
-        </Link>
+        <Typography className={classes.text}>
+          <StarIcon size={16} className={classes.icon} />
+          stars
+        </Typography>
         <Typography className={classes.text}>
           <EyeIcon size={16} className={classes.icon} />
           watchers
