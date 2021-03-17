@@ -68,7 +68,6 @@ const Notes: FC<Props> = ({ dev, setIsLoading, setSnackbar, setDev }) => {
       })
       .finally(() => {
         setIsLoading(false);
-        setEdit(false);
       });
   };
 
